@@ -1,0 +1,317 @@
+div.top
+{
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+img.logo
+{
+	position: absolute;
+	top:12px;
+	left: 20px;
+
+}
+form.input
+{
+    position: absolute;
+    top: 30px;
+    right: 105px;
+}
+.input input.search
+{
+    float: left;
+    height: 14px;
+    width: 250px;
+    padding: 10px 15px;
+    border: 1px solid #004;
+    font-size: 14px;
+}
+.submit
+{
+    float: left;
+    width: 52px;
+    height: 36px;
+    border: 1px solid #004;
+    background: url(../image/search.png) no-repeat center center;
+    background-color: #ccc;
+}
+
+div.nav
+{
+	height: 100px;
+	background: url(../image/banner.jpg) no-repeat center center;
+	background-color: rgb(2,58,133);	
+}
+.nav .link
+{
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav li
+{
+	height: 50px;
+	line-height: 50px;
+	width: 160px;
+	font-size: 20px;
+	margin-left: 30px;
+	text-align: center;
+	float: left;
+}
+.nav li a
+{
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+}
+.nav li a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+div.middle
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+.middle .header
+{
+    position: relative;
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.classify
+{
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    color:rgba(73,73,73,1);
+}
+div.header .check
+{
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    color:rgba(165,165,165,1);
+}
+div.breath
+{
+	position: relative;
+	float: left;
+}
+.breath .introduction
+{
+	display: inline-block;
+	width: 500px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.5);
+	color: red;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}
+ul.message
+{
+	width: 650px;
+	padding-left:50px;
+	float: right;
+	background-color: #ccc;
+}
+ul.message li
+{
+	height: 80px;
+	margin-bottom: 5px;
+	text-align: center;
+	list-style-type: disc;
+	list-style-position:outside;
+
+}
+ul.message li a
+{
+	font-size: 20px;
+	color: black;
+}
+ul.message li a:hover
+{
+	text-decoration: underline;
+}
+div.imgnews .picture li
+{
+	float: left;
+	position: relative;
+	margin: 0 25px 0;
+}
+div.imgnews .picture li span
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	color: white;
+	bottom: 0px;
+	left: 0px;
+	font-size: 16px;
+	height: 40px;
+	text-align: center;
+}
+div.hot
+{
+	width: 1200px;
+	margin-top: 10px;
+	border: 1px #eaeaea solid; 
+
+}
+div.hot ul
+{
+	width: 278px;
+	height: 300px;
+	margin: 0 10px;
+	float: left;
+	background-color: #fafafa;
+	border:1px #ccc solid;
+	border-top: 3px #00a4ff solid;
+}
+div.hot li
+{
+	height: 50px;
+	line-height: 50px;
+	padding-bottom: 3px;
+	text-align: center;
+	border-top: 1px #ccc solid;
+}
+div.hot li a
+{
+	color: black;
+	font-size: 14px;
+}
+div.hot li:hover
+{
+	font-weight: bold;
+}
+div.hot li.headline
+{
+	color: #00a4ff;
+	background-color: #fff;
+	height: 20px;
+	line-height: 20px;
+	border: none;
+}
+.remark .data li
+{
+	border-bottom: 1px #666 solid;
+}
+.remark .data h3
+{
+	font-size: 22px;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.remark .data h3 a
+{
+	color: black;
+}
+.remark .data h3 a:hover
+{
+	text-decoration: underline;
+}
+.remark .data .introduction
+{
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+}
+.remark .data .time
+{
+	float: right;
+	color: #ccc;
+	font-size: 12px;
+}
+div.bottom
+{
+    height: 320px;
+    background-color: #f9f7f4;
+}
+div.passage
+{
+    position: relative;
+    width: 1180px;
+    height: 320px;
+    padding-left: 20px;
+    margin: 0 auto;
+
+}
+div.passage .logo
+{
+    position: absolute;
+    top: 125px;
+}
+div.passage form
+{
+	position: absolute;
+	left: 450px;
+	top: 125px;
+}
+div.passage form input
+{
+	margin: 10px;
+}
+div.passage form input.submit2
+{
+	height: 30px;
+	width: 40px;
+}
+div.passage p.reflect
+{
+	position: absolute;
+    font-size: 18px;
+    color: #666666;
+    left: 450px;
+    top: 105px;
+}
+
+div.passage p
+{
+    position: absolute;
+    font-size: 12px;
+    color: #666666;
+    left: 350px;
+    bottom: 50px;
+}
+ul.first
+{
+    position: absolute;
+    right: 215px;
+    top: 125px;
+}
+ul.second
+{
+    position: absolute;
+    right: 30px;
+    top: 125px;
+}
+ul.lastnav li
+{
+    font-size: 12px;
+    margin-bottom: 9px;
+    color: #333333;
+}
+
+ul.lastnav li.class
+{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+ul.lastnav li a
+{
+    color: #333333;
+}
