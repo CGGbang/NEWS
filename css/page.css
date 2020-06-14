@@ -16,7 +16,7 @@ form.input
 {
     position: absolute;
     top: 30px;
-    right: 105px;
+    left: 500px;
 }
 .input input.search
 {
@@ -36,7 +36,25 @@ form.input
     background: url(../image/search.png) no-repeat center center;
     background-color: #ccc;
 }
-
+div.log
+{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    border: 1px #ccc solid;
+    width: 270px;
+    height: 90px;
+    padding-left: 20px;
+} 
+form.login .user
+{
+    height: 0px;
+    width: 160px;
+    padding: 10px 19px;
+    border: 1px solid #00a4ff;
+    font-size: 12px;
+    margin: 5px 0;
+}
 div.nav
 {
 	height: 100px;
